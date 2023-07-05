@@ -21,7 +21,7 @@ S3 = Simple Secure Storage. Amazon's object storage service.
 
 `aws configure`: set up access and secret access keys and region etc.
 
-Replace /<> with actual desired values in the following commands.
+Replace <> with actual desired values in the following commands.
 
 ### High-level
 
