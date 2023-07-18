@@ -107,7 +107,7 @@ Replace <> with actual desired values in the following commands.
 
 `aws s3api list-object-versions --bucket <bucket-name>`: lists object versions in a bucket.
 
-`aws s3api put-bucket-encryption --bucket <bucket-name> --serer-side-encryption-configuration "{""Rules"": [{""ApplyServerSideEncryptionByDefault"": {""SSEAlgorithm"": ""AES256""}}]}"`: enables encryption on Windows machine.
+`aws s3api put-bucket-encryption --bucket <bucket-name> --server-side-encryption-configuration "{""Rules"": [{""ApplyServerSideEncryptionByDefault"": {""SSEAlgorithm"": ""AES256""}}]}"`: enables encryption on Windows machine.
 
 `aws s3api get-bucket-encryption --bucket <bucket-name>`: gets encryption rules or return an error if no encryption is present.
 
